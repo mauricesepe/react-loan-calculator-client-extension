@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/bin/node /Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js --production false install --ignore-engines
+
+PATH: 
+  /Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/bin:/Users/mauricesepe/.rd/bin:/Users/mauricesepe/.nvm/versions/node/v18.5.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/mauricesepe/Library/pnpm:/Users/mauricesepe/.rd/bin:/Users/mauricesepe/.nvm/versions/node/v18.5.0/bin:/Users/mauricesepe/Library/PackageManager/bin:/usr/local/mysql/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home:/Users/mauricesepe/Library/PackageManager/bin:/Users/mauricesepe/Library/PackageManager/bin:/usr/local/mysql/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home:/bin:/usr/local/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  16.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError: Invalid Version: 0.1
+      at new SemVer (/Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:3245:11)
+      at Range.module.exports.Range.test (/Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:4052:15)
+      at Function.satisfies (/Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:4101:16)
+      at WorkspaceLayout.getManifestByPattern (/Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:32813:31)
+      at Function.isWorkspace (/Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:94077:51)
+      at /Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:37265:76
+      at Generator.next (<anonymous>)
+      at step (/Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:310:30)
+      at /Users/mauricesepe/Workspace/liferay-env/bundles/102/build/node/lib/node_modules/yarn/yarn-1.13.0.js:328:14
+      at new Promise (<anonymous>)
+
+npm manifest: 
+  {
+      "private": true,
+      "workspaces": {
+          "packages": [
+              "client-extensions/tic-tac-toe-react-app"
+          ]
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
